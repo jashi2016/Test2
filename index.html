@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 500px;
+            background-color: yellow;
+        }
+        .cards{
+            border: 2px solid green;
+            display: flex;
+            width: 30%;
+            height: 200px;
+            background-color: aqua;
+        }
+        .card1{
+            align-items: flex-start;
+        }
+        .card2{
+            align-items: center;
+        }
+        .card3{
+            align-items: flex-end;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cards card1">1
+        </div>
+        <div class="cards card2">2
+        </div>
+        <div class="cards card3">3
+        </div>
+    </div>
+</body>
+</html>
